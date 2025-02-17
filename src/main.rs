@@ -42,5 +42,5 @@ fn main() {
             println!("operation can't be performed");
         }
     }
-
+    println!("End of program");
 }
