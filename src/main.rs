@@ -23,9 +23,9 @@ fn main() {
         .read_line(&mut operator)
         .ok()
         .expect("failed to read line");
-    operator=operator.trim().to_ascii_lowercase();
+    operator = operator.trim().to_ascii_lowercase();
 
-     match operator.as_str() {
+    match operator.as_str() {
         "addition" => {
             result = input1 + input2;
             println!("{}", result);
@@ -38,7 +38,7 @@ fn main() {
             let result = input1 + input2;
             println!("{}", result);
         }
-        _ =>{
+        _ => {
             println!("operation can't be performed");
         }
     }
